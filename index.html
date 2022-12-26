@@ -23,6 +23,27 @@
   gtag('js', new Date());
 
   gtag('config', 'G-7PW3K3W5CY');
+
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ-QVJMBCbxVejMtt_gOmaz3hVJ6GkCa8&callback=initMap";
+
+  // Initialize and add the map
+	function initMap() {
+	// The location of Uluru
+	const uluru = { lat: -25.344, lng: 131.031 };
+	// The map, centered at Uluru
+	const map = new google.maps.Map(document.getElementById("location-google-map"), {
+		zoom: 4,
+		center: uluru,
+	});
+	// The marker, positioned at Uluru
+	const marker = new google.maps.Marker({
+		position: uluru,
+		map: map,
+	});
+	}
+
+window.initMap = initMap;
+
 </script>
 
 <body>
@@ -396,208 +417,6 @@
 </div>
 <!-- /gallery Modal -->
 
-<!-- #room-dimention -->
-<section id="room-dimention">
-	<div class="container">
-		<!-- .section-title -->
-		<div class="section-title text-center">
-			<span>House Features</span>
-			<h2><span>Room Dimensions</span></h2>
-			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <br>ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.</p>
-		</div><!-- /.section-title -->
-		<!-- .gallery-filter -->
-		<ul class="gallery-filter text-center">
-			
-			<li data-filter=".lawn" class="room-filter">
-				<span>Lawn</span>
-			</li>
-			<li data-filter=".drawing-room" class="room-filter">
-				<span>Drawing room</span>
-			</li>
-			<li data-filter=".kitchen" class="room-filter">
-				<span>Kitchen</span>
-			</li>
-			<li data-filter=".bedroom" class="room-filter">
-				<span>Bedroom</span>
-			</li>
-			<li data-filter=".toilet" class="room-filter">
-				<span>Toilet</span>
-			</li>
-			<li data-filter=".garage" class="room-filter">
-				<span>Garage</span>
-			</li>
-			<li data-filter=".masterroom" class="room-filter">
-				<span>master room</span>
-			</li>
-			<li data-filter=".swimming-pool" class="room-filter">
-				<span>Swimming pool</span>
-			</li>
-		</ul><!-- /.gallery-filter -->
-		<div class="row image-gallery" data-filter-class="room-filter" data-show-on-load="lawn">
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention drawing-room mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/1.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Drawing Room</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention kitchen mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/2.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Kitchen Room</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention bedroom mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/3.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Bed Room</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention toilet mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/4.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Toilet</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention lawn mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/5.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Balcony bay</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention garage mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/6.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Garage</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention masterroom mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/7.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Marter Room</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-			<!-- .single-room-dimention -->
-			<div class="single-room-dimention swimming-pool mix">
-				<div class="col-lg-7 col-md-12 img-wrap">
-					<div class="img-holder">
-						<img src="img/room-dimention/8.jpg" alt="">
-						<div class="room-size">
-							14.5 x 12
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 content">
-					<h2>Swimming Pool</h2>
-					<p>sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. voluptatem. Ut enim ad minima veniam quis.</p>
-					<ul>
-						<li><i class="fa fa-long-arrow-right"></i> Mountain and sea View</li>
-						<li><i class="fa fa-long-arrow-right"></i>  good senery with large view</li>
-						<li><i class="fa fa-long-arrow-right"></i> Neat and Clean atmosphere</li>
-					</ul>
-				</div>
-			</div><!-- /.single-room-dimention -->
-		</div>
-	</div>
-</section><!-- /#room-dimention -->
-
 <!-- #location-neighbouring -->
 <section id="location-neighbouring" class="parallax-section" style="background-image: url(img/location-neighbouring/bg.jpg);">
 	<div class="container">
@@ -606,8 +425,8 @@
 			<div class="col-lg-8 col-md-12 location-neighbouring-text">
 				<!-- .section-title -->
 				<div class="section-title">
-					<span>A Few Words About Locality</span>
-					<h2><span>Location & Neighbouring</span></h2>
+					<span>Explore the area</span>
+					<h2><span>Lake Cowichan and the Cowichan Valley</span></h2>
 				</div><!-- /.section-title -->
 				<div class="row">
 					<div class="col-lg-6 col-md-7 col-sm-7">
@@ -615,16 +434,16 @@
 						<ul class="essential-place">
 							<li class="clearfix">
 								<div class="name">
-									<h3>Entertainment</h3>
-									<p>AMC Council Bluffs 17</p>
+									<h3>Tubing on the Cowichan River</h3>
+									<p>Leisurely float your way down the river!</p>
 								</div>
 								<div class="distance">
-									NaN Km
+									3 Km
 								</div>
 							</li>
 							<li class="clearfix">
 								<div class="name">
-									<h3>Primary School</h3>
+									<h3>Bald Mountain Trail</h3>
 									<p>AMC Council Bluffs 17</p>
 								</div>
 								<div class="distance">
@@ -662,7 +481,7 @@
 					</div>
 					<div class="col-lg-6 col-md-5 col-sm-5">
 						<!-- .google-map -->
-						<div class="google-map" id="location-neighbouring-map" data-map-lat="-37.812802" data-map-lng="144.956981" data-icon-path="img/resources/map-marker.png" data-map-zoom="13" data-map-title="Envato HQ"></div><!-- /.google-map -->
+						<div id="location-google-map"></div><!-- /.google-map -->
 					</div>
 				</div>
 			</div><!-- /.location-neighbouring-text -->
