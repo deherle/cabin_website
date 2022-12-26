@@ -24,26 +24,6 @@
 
   gtag('config', 'G-7PW3K3W5CY');
 
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ-QVJMBCbxVejMtt_gOmaz3hVJ6GkCa8&callback=initMap";
-
-  // Initialize and add the map
-	function initMap() {
-	// The location of Uluru
-	const uluru = { lat: -25.344, lng: 131.031 };
-	// The map, centered at Uluru
-	const map = new google.maps.Map(document.getElementById("location-google-map"), {
-		zoom: 4,
-		center: uluru,
-	});
-	// The marker, positioned at Uluru
-	const marker = new google.maps.Marker({
-		position: uluru,
-		map: map,
-	});
-	}
-
-window.initMap = initMap;
-
 </script>
 
 <body>
@@ -499,7 +479,7 @@ window.initMap = initMap;
 					</div>
 					<div class="col-lg-6 col-md-5 col-sm-5">
 						<!-- .google-map -->
-						<div id="location-google-map"></div><!-- /.google-map -->
+						<div class="google-map" id="location-neighbouring-map" data-map-lat="48.833664" data-map-lng="-124.132384" data-icon-path="img/resources/map-marker.png" data-map-zoom="13" data-map-title="Our Neighborhood"></div><!-- /.google-map -->
 					</div>
 				</div>
 			</div><!-- /.location-neighbouring-text -->
@@ -591,7 +571,7 @@ window.initMap = initMap;
 
 <!-- #home-footer-google-map-wrap -->
 <section id="home-footer-google-map-wrap">
-	<div class="google-map" id="home-footer-google-map" data-map-lat="-37.812802" data-map-lng="144.956981"  data-map-zoom="12" data-map-overlay-clr="rgba(0,0,0, 0.4)" data-icon-path="img/resources/footer-map-marker.png"></div>
+	<div class="google-map" id="home-footer-google-map" data-map-lat="48.833664" data-map-lng="-124.132384"  data-map-zoom="12" data-map-overlay-clr="rgba(0,0,0, 0.1)" data-icon-path="img/resources/map-marker.png"></div>
 </section><!-- /#home-footer-google-map-wrap -->
 
 <!-- #footer-home -->
@@ -679,7 +659,7 @@ window.initMap = initMap;
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANepSMO56m7Dc5RFutoViWDyqccd2rUmo"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ-QVJMBCbxVejMtt_gOmaz3hVJ6GkCa8"></script>
 <script src="js/gmap.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
