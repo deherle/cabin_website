@@ -206,7 +206,7 @@ li {
 }
 .section-title h2:after {
   content: ' ';
-  background: #FFAE00;
+  background: rgba(14,132,61,0.9);
   height: 2px;
   width: 85px;
   display: inline-block;
@@ -478,7 +478,7 @@ header.home-header .navbar-collapse.collapse {
           transition: all .3s ease;
 }
 .main-menu .navbar-collapse > ul > li > ul > li > ul > li > a:hover {
-  color: #E8A20C;
+  color: rgba(14,132,61,0.9);
 }
 .main-menu .navbar-collapse > ul > li > ul.right-align {
   left: auto;
@@ -498,7 +498,7 @@ header.home-header .navbar-collapse.collapse {
   width: 300px;
   height: 100%;
   display: block;
-  background: rgba(232, 162, 12, 0.95);
+  background: rgba(14,132,61,0.9);
 }
 #banner .porperty-details .border {
   position: relative;
@@ -660,7 +660,7 @@ header.home-header .navbar-collapse.collapse {
 }
 .room-amount li i:before {
   margin: 0;
-  color: #FFAE00;
+  color: rgba(14,132,61,0.9);
   font-size: 54px;
 }
 .room-amount li h4 {
@@ -698,7 +698,7 @@ header.home-header .navbar-collapse.collapse {
   content: ' ';
   width: 200%;
   height: 100%;
-  background: #E8A20C;
+  background: rgba(14,132,61,0.9);
   opacity: .85;
   filter: alpha(opacity=85);
   z-index: 99;
@@ -720,7 +720,7 @@ header.home-header .navbar-collapse.collapse {
   margin-bottom: 50px;
 }
 #property-highlight .single-property-highlight h3 {
-  color: #FFAE00;
+  color: rgba(14,132,61,0.9);
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -813,7 +813,7 @@ header.home-header .navbar-collapse.collapse {
   height: 25%;
   position: absolute;
   top: 37%;
-  background: rgba(232, 162, 12, 0.75);
+  background: rgba(14,132,61,0.9);
   opacity: 0;
   filter: alpha(opacity=0);
 }
@@ -935,7 +935,7 @@ header.home-header .navbar-collapse.collapse {
   font-weight: bold;
 }
 .single-room-dimention .content ul li .fa {
-  color: #EB9500;
+  color: rgba(14,132,61,0.9);
   margin-right: 10px;
 }
 /*======== 13. location-neighbouring Styles ===========*/
@@ -967,7 +967,7 @@ header.home-header .navbar-collapse.collapse {
   color: #FFFFFF;
 }
 #location-neighbouring .section-title h2:before {
-  background: #FFAE00;
+  background: rgba(14,132,61,0.9);
 }
 #location-neighbouring .essential-place li {
   border-bottom: 1px solid #133A4C;
@@ -1099,7 +1099,7 @@ header.home-header .navbar-collapse.collapse {
   bottom: 0;
   right: 0;
   display: inline-block;
-  background: #FFAE00;
+  background: rgba(14,132,61,0.9);
   color: #2A2D34;
   font-size: 14px;
   line-height: 21px;
@@ -1115,7 +1115,7 @@ header.home-header .navbar-collapse.collapse {
   display: block;
 }
 .single-blog-post .img-holder .overlay {
-  background: rgba(255, 174, 0, 0.65);
+  background: rgba(14,132,61,0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -1185,7 +1185,7 @@ header.home-header .navbar-collapse.collapse {
   font-weight: bold;
 }
 .single-blog-post a:hover {
-  color: #FFAE00;
+  color: rgba(14,132,61,0.9);
 }
 /*======== 15. home google map Styles ===========*/
 #home-footer-google-map-wrap {
