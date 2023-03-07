@@ -43,7 +43,11 @@ function bannerSlider () {
 		        { src: "img/slides/slide1.jpg" },
 		        { src: "img/slides/slide2.jpg" },
 		        { src: "img/slides/slide3.jpg" },
-		        { src: "img/slides/slide4.jpg" }
+		        { src: "img/slides/slide4.jpg" },
+				{ src: "img/slides/slide6.jpg" },
+				{ src: "img/slides/slide15.jpg" },
+				{ src: "img/slides/slide16.jpg" },
+				{ src: "img/slides/slide17.jpg" }
 		    ]
 		});
 	};
